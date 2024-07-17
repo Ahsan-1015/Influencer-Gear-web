@@ -1,0 +1,138 @@
+
+
+/* sahred styles  */
+.display-flex{
+    display: flex;
+}
+
+.display-grid{
+    display: grid;
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 99.5vw;
+    height: 99.5vh;
+    margin: 0% auto;
+
+    /* border:  rebeccapurple 2px solid; */
+
+}
+
+
+.header-container{
+    width: 90vw;
+    height: ;
+    margin: 2% auto;
+
+
+     /* border: forestgreen 2px solid; */
+}
+
+nav{
+    width: 85vw;
+    margin: 5% auto;
+
+    /* border: royalblue 2px solid; */
+}
+
+.navber{
+    justify-content: space-between;
+   
+
+}
+.navber ul>li{
+    list-style: none;
+    
+    
+}
+
+.navber li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.navber-links{
+    gap: 15%;
+    margin-right: 11vw;
+    align-items: center;
+    
+}
+
+.brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% auto;
+    width: 85vw;
+    height: 63vh;
+
+
+    /* border: greenyellow 2px solid; */
+}
+
+.banner-text{
+    width: 42vw;
+
+    
+
+    /* border: yellow 2px solid; */
+}
+.banner-text-title{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+    /* border: grey 2px solid; */
+   
+}
+
+.banner-text-subtitle{
+    font-size: 1.5rem;
+    font-weight: 400;
+   
+    
+   
+    /* border: grey 2px solid; */
+}
+
+.banner-text-btn{
+    background-color: rgb(233, 21, 116);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: none;
+}
+.banner-image{
+    width:30vw ;
+    height: 63vh;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+    /* border:  2px slateblue solid; */
+}
+.banner-image img{
+    width: 95%;
+    margin: 20px;
+   
+    /* border: gold 2px solid; */
+}

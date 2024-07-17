@@ -1,0 +1,49 @@
+
+
+/* mobile resoponsive  */
+
+@media screen and (max-width:576px) {
+
+    .navber,
+    .navber-links{
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    
+
+    .banner{
+        flex-direction: column-reverse;
+        width: 90vw;
+       
+       
+    }
+    .banner-text{
+        width: 90vw;
+    }
+
+    .banner-text-title{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+     .banner-text-subtitle{
+        width: 95vw;
+        font-size: 1rem;
+       
+       
+        text-align: center;
+     }
+
+     .banner-image{
+        width: 85vw;
+        height: 50vh;
+        
+      
+     }
+
+     #hero-btn{
+        display: flex;
+       justify-content: center;
+     }
+}
